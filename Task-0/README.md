@@ -33,11 +33,13 @@ Status: 200 OK
 Content-Type: application/json
 
 Response Body:
+```
 {
   "email": "your-email@example.com",
   "current_datetime": "2025-01-30T09:30:00Z",
-  "github_url": "https://github.com/yourusername/your-repo"
+  "github_url": "https://github.com/abdulgafar01/HNG-backend"
 }
+```
 
 ##   Setup Instructions
 
@@ -59,9 +61,12 @@ http://localhost:3000
 curl -X GET [https://hng-backend-e0pu.onrender.com](https://hng-backend-e0pu.onrender.com)/
 
 ### Using JavaScript Fetch
+```
 fetch("https://hng-backend-e0pu.onrender.com")
   .then(response => response.json())
   .then(data => console.log(data));
+
+  ```
 
 
 
